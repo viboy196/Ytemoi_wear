@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_thongso"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/tv_name"
+        android:textSize="12dp"
+        android:layout_width="0dp"
+        android:layout_weight=".55"
+        android:layout_height="wrap_content"
+        android:text="  Tiêu Đề"/>
+    <TextView
+        android:id="@+id/tv_chiso"
+        android:gravity="right"
+        android:layout_width="0dp"
+        android:layout_weight=".45"
+        android:layout_height="wrap_content"
+        android:textColor="#f0140c"
+        android:text=".....   "/>
+</LinearLayout>

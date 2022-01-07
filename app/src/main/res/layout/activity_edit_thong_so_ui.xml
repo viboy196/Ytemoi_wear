@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UI.ChiSo.EditThongSo_UI">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <LinearLayout
+            android:layout_width="40dp"
+            android:gravity="center"
+            android:layout_height="30dp">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:tint="#ffff"
+                android:src="@drawable/ic_back_button"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/titlechiso"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Edit Chỉ số"
+            android:textColor="#ffff"
+            android:gravity="center"/>
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+            <EditText
+                android:gravity="center"
+                android:background="@drawable/rounded_edittext"
+                android:id="@+id/et_edit_chiso"
+                android:layout_width="0dp"
+                android:inputType="numberDecimal"
+                android:layout_weight=".65"
+                android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/Donvi"
+                android:text="đơn vị"
+                android:textColor="#ffff"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight=".35"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/capnhat"
+            android:layout_width="45dp"
+            android:layout_height="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="bottom|center"
+            android:background="@drawable/layout_menu"
+            android:gravity="center"
+            android:text="Cập nhật"
+            android:textColor="#ffff"
+            android:textSize="10dp" />
+    </RelativeLayout>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

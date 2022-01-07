@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context=".UI.ChuongYte"
+    tools:deviceIds="wear">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--    giao diện chuông-->
+        <FrameLayout
+            android:id="@+id/layOutChuong"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:id="@+id/llChuong"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="@dimen/inner_frame_layout_padding"
+                android:orientation="vertical"
+                app:layout_boxedEdges="all">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_marginRight="5dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/ytemoilogo"/>
+                    <TextView
+                        android:id="@+id/tvTieude"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="Gọi Y Tá"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/bellCall"
+                    android:background="@drawable/layout_bell"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:gravity="center">
+                    <ImageView
+
+                        android:layout_gravity="center"
+                        android:id="@+id/text"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/notification"
+                        android:tint="#ffff"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </FrameLayout>
+        <!--    giao diện nút menu-->
+        <FrameLayout
+            android:id="@+id/btnmenu"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left|bottom"
+            android:background="@drawable/layout_menu"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:src="@drawable/ic_option"
+                android:tint="#ffff" />
+        </FrameLayout>
+    </FrameLayout>
+
+</androidx.wear.widget.BoxInsetLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/ic_back_button.xml" value="1.2464285714285714" />
+        <entry key="app/src/main/res/drawable/ic_bell.xml" value="1.5678571428571428" />
+        <entry key="app/src/main/res/drawable/ic_option.xml" value="1.5678571428571428" />
+        <entry key="app/src/main/res/drawable/layout_menu.xml" value="1.5678571428571428" />
+        <entry key="app/src/main/res/drawable/rounded_edittext.xml" value="1.5678571428571428" />
+        <entry key="app/src/main/res/layout/activity_call.xml" value="1.1392857142857142" />
+        <entry key="app/src/main/res/layout/activity_edit_thong_so_ui.xml" value="1.1357142857142857" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="1.2088815789473684" />
+        <entry key="app/src/main/res/layout/activity_thong_so_yte.xml" value="0.9" />
+        <entry key="app/src/main/res/layout/adapter_chiso.xml" value="0.6535714285714286" />
+        <entry key="app/src/main/res/layout/adapter_chiso_edit.xml" value="0.6535714285714286" />
+        <entry key="app/src/main/res/menu/menu.xml" value="1.2892857142857144" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
